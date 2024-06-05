@@ -1,0 +1,40 @@
+.navbar {
+  background-color: #cdd6bb;
+}
+
+.logo {
+  width: 50%;
+  height: auto;
+}
+
+@media (min-width: 375px) {
+  .logo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    width: 50%;
+  }
+}
+
+.custom-navbar .navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+}
