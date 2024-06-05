@@ -8,5 +8,6 @@ export default defineConfig({
       "/financials": "http://127.0.0.1:8000",
     },
   },
+  base: "/unleveredproject/",
   plugins: [react()],
 });
